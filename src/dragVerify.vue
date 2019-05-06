@@ -69,8 +69,8 @@
 		handlerStyle:function(){
 			return {
 				left: '0px',
-				width : this.height-2+'px',
-				height : this.height-2+'px',
+				width : this.height+'px',
+				height : this.height+'px',
 				borderRadius: this.circle?'50%':0,
 				background: this.handlerBg
 			}
